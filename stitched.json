@@ -1,0 +1,6552 @@
+{
+  "layout": {
+    "Floor_0": [
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "girls_toilet",
+          "name": "GT2"
+        },
+        {
+          "type": "corridor",
+          "name": "c114"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "A006"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "A008"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "A010"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c51"
+        },
+        {
+          "type": "boys_toilet",
+          "name": "BT3"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c113"
+        },
+        {
+          "type": "corridor",
+          "name": "c4"
+        },
+        {
+          "type": "corridor",
+          "name": "c41"
+        },
+        {
+          "type": "corridor",
+          "name": "c42"
+        },
+        {
+          "type": "corridor",
+          "name": "c43"
+        },
+        {
+          "type": "corridor",
+          "name": "c44"
+        },
+        {
+          "type": "corridor",
+          "name": "c45"
+        },
+        {
+          "type": "corridor",
+          "name": "c46"
+        },
+        {
+          "type": "corridor",
+          "name": "c52"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "room",
+          "name": "A005"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c112"
+        },
+        {
+          "type": "stair",
+          "name": "s2"
+        },
+        {
+          "type": "lift",
+          "name": "l2"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "A007"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "A009"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c53"
+        },
+        {
+          "type": "room",
+          "name": "A011"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "corridor",
+          "name": "c3"
+        },
+        {
+          "type": "corridor",
+          "name": "c3"
+        },
+        {
+          "type": "corridor",
+          "name": "c111"
+        },
+        {
+          "type": "lift",
+          "name": "l1"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c54"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c110"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c55"
+        },
+        {
+          "type": "room",
+          "name": "A013"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "girls_toilet",
+          "name": "GT5"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "A004"
+        },
+        {
+          "type": "corridor",
+          "name": "c19"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "A012"
+        },
+        {
+          "type": "corridor",
+          "name": "c56"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B011"
+        },
+        {
+          "type": "corridor",
+          "name": "c90"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c18"
+        },
+        {
+          "type": "room",
+          "name": "A003"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c57"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B014"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B012"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c91"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "A002"
+        },
+        {
+          "type": "corridor",
+          "name": "c17"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c58"
+        },
+        {
+          "type": "corridor",
+          "name": "c70"
+        },
+        {
+          "type": "corridor",
+          "name": "c71"
+        },
+        {
+          "type": "corridor",
+          "name": "c72"
+        },
+        {
+          "type": "corridor",
+          "name": "c73"
+        },
+        {
+          "type": "corridor",
+          "name": "c74"
+        },
+        {
+          "type": "corridor",
+          "name": "c75"
+        },
+        {
+          "type": "corridor",
+          "name": "c76"
+        },
+        {
+          "type": "corridor",
+          "name": "c77"
+        },
+        {
+          "type": "corridor",
+          "name": "c78"
+        },
+        {
+          "type": "corridor",
+          "name": "c92"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "boys_toilet",
+          "name": "BT6"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c16"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c59"
+        },
+        {
+          "type": "stair",
+          "name": "s3"
+        },
+        {
+          "type": "lift",
+          "name": "l6"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B015"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B013"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "lift",
+          "name": "l7"
+        },
+        {
+          "type": "stair",
+          "name": "s4"
+        },
+        {
+          "type": "corridor",
+          "name": "c93"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c-11"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "corridor",
+          "name": "c2"
+        },
+        {
+          "type": "corridor",
+          "name": "c2"
+        },
+        {
+          "type": "corridor",
+          "name": "c15"
+        },
+        {
+          "type": "lift",
+          "name": "l3"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c510"
+        },
+        {
+          "type": "lift",
+          "name": "l5"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "lift",
+          "name": "l8"
+        },
+        {
+          "type": "corridor",
+          "name": "c94"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B010"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B008"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B006"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c-12"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "room",
+          "name": "A001"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c14"
+        },
+        {
+          "type": "stair",
+          "name": "s1"
+        },
+        {
+          "type": "lift",
+          "name": "l4"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "A017"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "HT"
+        },
+        {
+          "type": "room",
+          "name": "T4"
+        },
+        {
+          "type": "corridor",
+          "name": "c511"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c95"
+        },
+        {
+          "type": "corridor",
+          "name": "c-01"
+        },
+        {
+          "type": "corridor",
+          "name": "c-02"
+        },
+        {
+          "type": "corridor",
+          "name": "c-03"
+        },
+        {
+          "type": "corridor",
+          "name": "c-04"
+        },
+        {
+          "type": "corridor",
+          "name": "c-05"
+        },
+        {
+          "type": "corridor",
+          "name": "c-06"
+        },
+        {
+          "type": "corridor",
+          "name": "c-07"
+        },
+        {
+          "type": "corridor",
+          "name": "c-13"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B005"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c13"
+        },
+        {
+          "type": "corridor",
+          "name": "c6"
+        },
+        {
+          "type": "corridor",
+          "name": "c61"
+        },
+        {
+          "type": "corridor",
+          "name": "c62"
+        },
+        {
+          "type": "corridor",
+          "name": "c63"
+        },
+        {
+          "type": "corridor",
+          "name": "c64"
+        },
+        {
+          "type": "corridor",
+          "name": "c65"
+        },
+        {
+          "type": "corridor",
+          "name": "c66"
+        },
+        {
+          "type": "corridor",
+          "name": "c512"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B016"
+        },
+        {
+          "type": "corridor",
+          "name": "c96"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B009"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B007"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "lift",
+          "name": "l9"
+        },
+        {
+          "type": "stair",
+          "name": "s5"
+        },
+        {
+          "type": "corridor",
+          "name": "c-14"
+        },
+        {
+          "type": "corridor",
+          "name": "c-31"
+        },
+        {
+          "type": "corridor",
+          "name": "c-31"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "room",
+          "name": "A-entrance"
+        },
+        {
+          "type": "corridor",
+          "name": "c0"
+        },
+        {
+          "type": "corridor",
+          "name": "c12"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "A016"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "A018"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c513"
+        },
+        {
+          "type": "room",
+          "name": "A014"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c97"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "lift",
+          "name": "l10"
+        },
+        {
+          "type": "corridor",
+          "name": "c-15"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c11"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c514"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B017"
+        },
+        {
+          "type": "corridor",
+          "name": "c98"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c-16"
+        },
+        {
+          "type": "room",
+          "name": "B004"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "boys_toilet",
+          "name": "BT1"
+        },
+        {
+          "type": "corridor",
+          "name": "c10"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c515"
+        },
+        {
+          "type": "room",
+          "name": "A015"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c99"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B003"
+        },
+        {
+          "type": "corridor",
+          "name": "c-17"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c516"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c910"
+        },
+        {
+          "type": "room",
+          "name": "B018"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c-18"
+        },
+        {
+          "type": "room",
+          "name": "B002"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c517"
+        },
+        {
+          "type": "corridor",
+          "name": "c80"
+        },
+        {
+          "type": "corridor",
+          "name": "c81"
+        },
+        {
+          "type": "corridor",
+          "name": "c82"
+        },
+        {
+          "type": "corridor",
+          "name": "c83"
+        },
+        {
+          "type": "corridor",
+          "name": "c84"
+        },
+        {
+          "type": "corridor",
+          "name": "c85"
+        },
+        {
+          "type": "corridor",
+          "name": "c86"
+        },
+        {
+          "type": "corridor",
+          "name": "c87"
+        },
+        {
+          "type": "corridor",
+          "name": "c88"
+        },
+        {
+          "type": "corridor",
+          "name": "c911"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "lift",
+          "name": "l11"
+        },
+        {
+          "type": "corridor",
+          "name": "c-19"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c912"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B019"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B021"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "lift",
+          "name": "l12"
+        },
+        {
+          "type": "stair",
+          "name": "s6"
+        },
+        {
+          "type": "corridor",
+          "name": "c-110"
+        },
+        {
+          "type": "corridor",
+          "name": "c-41"
+        },
+        {
+          "type": "corridor",
+          "name": "c-42"
+        },
+        {
+          "type": "corridor",
+          "name": "c-43"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c913"
+        },
+        {
+          "type": "corridor",
+          "name": "c-21"
+        },
+        {
+          "type": "corridor",
+          "name": "c-22"
+        },
+        {
+          "type": "corridor",
+          "name": "c-23"
+        },
+        {
+          "type": "corridor",
+          "name": "c-24"
+        },
+        {
+          "type": "corridor",
+          "name": "c-25"
+        },
+        {
+          "type": "corridor",
+          "name": "c-26"
+        },
+        {
+          "type": "corridor",
+          "name": "c-27"
+        },
+        {
+          "type": "corridor",
+          "name": "c-111"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B001"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "girls_toilet",
+          "name": "GT7"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B020"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B022"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c-112"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "corridor",
+          "name": "c-113"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "room",
+          "name": "B-entrance"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ],
+      [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        },
+        {
+          "type": "empty"
+        }
+      ]
+    ]
+  },
+  "nodes": {
+    "GT2": {
+      "type": "girls_toilet",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c114"
+      ]
+    },
+    "c114": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c113",
+        "GT2"
+      ]
+    },
+    "A006": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c41"
+      ]
+    },
+    "A008": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c43"
+      ]
+    },
+    "A010": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c45"
+      ]
+    },
+    "c51": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "BT3",
+        "c52"
+      ]
+    },
+    "BT3": {
+      "type": "boys_toilet",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c51"
+      ]
+    },
+    "c113": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c4",
+        "c112",
+        "c114"
+      ]
+    },
+    "c4": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c41",
+        "s2",
+        "c113"
+      ]
+    },
+    "c41": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c42",
+        "l2",
+        "c4",
+        "A006"
+      ]
+    },
+    "c42": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c43",
+        "c41"
+      ]
+    },
+    "c43": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c44",
+        "A007",
+        "c42",
+        "A008"
+      ]
+    },
+    "c44": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c45",
+        "c43"
+      ]
+    },
+    "c45": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c46",
+        "A009",
+        "c44",
+        "A010"
+      ]
+    },
+    "c46": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c52",
+        "c45"
+      ]
+    },
+    "c52": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c53",
+        "c46",
+        "c51"
+      ]
+    },
+    "A005": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c3"
+      ]
+    },
+    "c112": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "s2",
+        "c111",
+        "c113"
+      ]
+    },
+    "s2": {
+      "type": "stair",
+      "floor": "Floor_0",
+      "neighbors": [
+        "l2",
+        "l1",
+        "c112",
+        "c4"
+      ]
+    },
+    "l2": {
+      "type": "lift",
+      "floor": "Floor_0",
+      "neighbors": [
+        "s2",
+        "c41"
+      ]
+    },
+    "A007": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c43"
+      ]
+    },
+    "A009": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c45"
+      ]
+    },
+    "c53": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "A011",
+        "c54",
+        "c52"
+      ]
+    },
+    "A011": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c53"
+      ]
+    },
+    "c3": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c3",
+        "A005",
+        "c111",
+        "c3"
+      ]
+    },
+    "c111": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "l1",
+        "c110",
+        "c3",
+        "c112"
+      ]
+    },
+    "l1": {
+      "type": "lift",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c111",
+        "s2"
+      ]
+    },
+    "c54": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c55",
+        "c53"
+      ]
+    },
+    "c110": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c19",
+        "c111"
+      ]
+    },
+    "c55": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "A013",
+        "c56",
+        "c54"
+      ]
+    },
+    "A013": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c55"
+      ]
+    },
+    "GT5": {
+      "type": "girls_toilet",
+      "floor": "Floor_0",
+      "neighbors": []
+    },
+    "A004": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c19"
+      ]
+    },
+    "c19": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c18",
+        "A004",
+        "c110"
+      ]
+    },
+    "A012": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c56"
+      ]
+    },
+    "c56": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c57",
+        "A012",
+        "c55"
+      ]
+    },
+    "B011": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c90"
+      ]
+    },
+    "c90": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c91",
+        "B011"
+      ]
+    },
+    "c18": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "A003",
+        "c17",
+        "c19"
+      ]
+    },
+    "A003": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c18"
+      ]
+    },
+    "c57": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c58",
+        "c56"
+      ]
+    },
+    "B014": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c73"
+      ]
+    },
+    "B012": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c75"
+      ]
+    },
+    "c91": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c92",
+        "c90"
+      ]
+    },
+    "A002": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c17"
+      ]
+    },
+    "c17": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c16",
+        "A002",
+        "c18"
+      ]
+    },
+    "c58": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c70",
+        "c59",
+        "c57"
+      ]
+    },
+    "c70": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c71",
+        "s3",
+        "c58"
+      ]
+    },
+    "c71": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c72",
+        "l6",
+        "c70"
+      ]
+    },
+    "c72": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c73",
+        "c71"
+      ]
+    },
+    "c73": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c74",
+        "B015",
+        "c72",
+        "B014"
+      ]
+    },
+    "c74": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c75",
+        "c73"
+      ]
+    },
+    "c75": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c76",
+        "B013",
+        "c74",
+        "B012"
+      ]
+    },
+    "c76": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c77",
+        "c75"
+      ]
+    },
+    "c77": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c78",
+        "l7",
+        "c76"
+      ]
+    },
+    "c78": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c92",
+        "s4",
+        "c77"
+      ]
+    },
+    "c92": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c93",
+        "c78",
+        "c91"
+      ]
+    },
+    "BT6": {
+      "type": "boys_toilet",
+      "floor": "Floor_0",
+      "neighbors": []
+    },
+    "c16": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c15",
+        "c17"
+      ]
+    },
+    "c59": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "s3",
+        "c510",
+        "c58"
+      ]
+    },
+    "s3": {
+      "type": "stair",
+      "floor": "Floor_0",
+      "neighbors": [
+        "l6",
+        "l5",
+        "c59",
+        "c70"
+      ]
+    },
+    "l6": {
+      "type": "lift",
+      "floor": "Floor_0",
+      "neighbors": [
+        "s3",
+        "c71"
+      ]
+    },
+    "B015": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c73"
+      ]
+    },
+    "B013": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c75"
+      ]
+    },
+    "l7": {
+      "type": "lift",
+      "floor": "Floor_0",
+      "neighbors": [
+        "s4",
+        "c77"
+      ]
+    },
+    "s4": {
+      "type": "stair",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c93",
+        "l8",
+        "l7",
+        "c78"
+      ]
+    },
+    "c93": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c94",
+        "s4",
+        "c92"
+      ]
+    },
+    "c-11": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-12"
+      ]
+    },
+    "c2": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c2",
+        "A001",
+        "c15",
+        "c2"
+      ]
+    },
+    "c15": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "l3",
+        "c14",
+        "c2",
+        "c16"
+      ]
+    },
+    "l3": {
+      "type": "lift",
+      "floor": "Floor_0",
+      "neighbors": [
+        "s1",
+        "c15"
+      ]
+    },
+    "c510": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "l5",
+        "c511",
+        "c59"
+      ]
+    },
+    "l5": {
+      "type": "lift",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c510",
+        "s3"
+      ]
+    },
+    "l8": {
+      "type": "lift",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c94",
+        "s4"
+      ]
+    },
+    "c94": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c95",
+        "l8",
+        "c93"
+      ]
+    },
+    "B010": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-02"
+      ]
+    },
+    "B008": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-04"
+      ]
+    },
+    "B006": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-06"
+      ]
+    },
+    "c-12": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-13",
+        "c-11"
+      ]
+    },
+    "A001": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c2"
+      ]
+    },
+    "c14": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "s1",
+        "c13",
+        "c15"
+      ]
+    },
+    "s1": {
+      "type": "stair",
+      "floor": "Floor_0",
+      "neighbors": [
+        "l4",
+        "c6",
+        "c14",
+        "l3"
+      ]
+    },
+    "l4": {
+      "type": "lift",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c61",
+        "s1"
+      ]
+    },
+    "A017": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c63"
+      ]
+    },
+    "HT": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "T4",
+        "c65"
+      ]
+    },
+    "T4": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c511",
+        "c66",
+        "HT"
+      ]
+    },
+    "c511": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c512",
+        "T4",
+        "c510"
+      ]
+    },
+    "c95": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-01",
+        "c96",
+        "c94"
+      ]
+    },
+    "c-01": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-02",
+        "c95"
+      ]
+    },
+    "c-02": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-03",
+        "B009",
+        "c-01",
+        "B010"
+      ]
+    },
+    "c-03": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-04",
+        "c-02"
+      ]
+    },
+    "c-04": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-05",
+        "B007",
+        "c-03",
+        "B008"
+      ]
+    },
+    "c-05": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-06",
+        "c-04"
+      ]
+    },
+    "c-06": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-07",
+        "l9",
+        "c-05",
+        "B006"
+      ]
+    },
+    "c-07": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-13",
+        "s5",
+        "c-06"
+      ]
+    },
+    "c-13": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-14",
+        "c-07",
+        "c-12"
+      ]
+    },
+    "B005": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-31"
+      ]
+    },
+    "c13": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c6",
+        "c12",
+        "c14"
+      ]
+    },
+    "c6": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c61",
+        "c13",
+        "s1"
+      ]
+    },
+    "c61": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c62",
+        "A016",
+        "c6",
+        "l4"
+      ]
+    },
+    "c62": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c63",
+        "c61"
+      ]
+    },
+    "c63": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c64",
+        "A018",
+        "c62",
+        "A017"
+      ]
+    },
+    "c64": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c65",
+        "c63"
+      ]
+    },
+    "c65": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c66",
+        "c64",
+        "HT"
+      ]
+    },
+    "c66": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c512",
+        "c65",
+        "T4"
+      ]
+    },
+    "c512": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c513",
+        "c66",
+        "c511"
+      ]
+    },
+    "B016": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c96"
+      ]
+    },
+    "c96": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c97",
+        "B016",
+        "c95"
+      ]
+    },
+    "B009": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-02"
+      ]
+    },
+    "B007": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-04"
+      ]
+    },
+    "l9": {
+      "type": "lift",
+      "floor": "Floor_0",
+      "neighbors": [
+        "s5",
+        "c-06"
+      ]
+    },
+    "s5": {
+      "type": "stair",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-14",
+        "l10",
+        "l9",
+        "c-07"
+      ]
+    },
+    "c-14": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-31",
+        "c-15",
+        "s5",
+        "c-13"
+      ]
+    },
+    "c-31": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-31",
+        "c-14",
+        "c-31",
+        "B005"
+      ]
+    },
+    "A-entrance": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c0"
+      ]
+    },
+    "c0": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c12",
+        "A-entrance"
+      ]
+    },
+    "c12": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c11",
+        "c0",
+        "c13"
+      ]
+    },
+    "A016": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c61"
+      ]
+    },
+    "A018": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c63"
+      ]
+    },
+    "c513": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "A014",
+        "c514",
+        "c512"
+      ]
+    },
+    "A014": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c513"
+      ]
+    },
+    "c97": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c98",
+        "c96"
+      ]
+    },
+    "l10": {
+      "type": "lift",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-15",
+        "s5"
+      ]
+    },
+    "c-15": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-16",
+        "l10",
+        "c-14"
+      ]
+    },
+    "c11": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c10",
+        "c12"
+      ]
+    },
+    "c514": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c515",
+        "c513"
+      ]
+    },
+    "B017": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c98"
+      ]
+    },
+    "c98": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c99",
+        "B017",
+        "c97"
+      ]
+    },
+    "c-16": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "B004",
+        "c-17",
+        "c-15"
+      ]
+    },
+    "B004": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-16"
+      ]
+    },
+    "BT1": {
+      "type": "boys_toilet",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c10"
+      ]
+    },
+    "c10": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "BT1",
+        "c11"
+      ]
+    },
+    "c515": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "A015",
+        "c516",
+        "c514"
+      ]
+    },
+    "A015": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c515"
+      ]
+    },
+    "c99": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c910",
+        "c98"
+      ]
+    },
+    "B003": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-17"
+      ]
+    },
+    "c-17": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-18",
+        "B003",
+        "c-16"
+      ]
+    },
+    "c516": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c517",
+        "c515"
+      ]
+    },
+    "c910": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "B018",
+        "c911",
+        "c99"
+      ]
+    },
+    "B018": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c910"
+      ]
+    },
+    "c-18": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "B002",
+        "c-19",
+        "c-17"
+      ]
+    },
+    "B002": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-18"
+      ]
+    },
+    "c517": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c80",
+        "c516"
+      ]
+    },
+    "c80": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c81",
+        "c517"
+      ]
+    },
+    "c81": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c82",
+        "c80"
+      ]
+    },
+    "c82": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c83",
+        "c81"
+      ]
+    },
+    "c83": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c84",
+        "c82"
+      ]
+    },
+    "c84": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c85",
+        "c83"
+      ]
+    },
+    "c85": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c86",
+        "c84"
+      ]
+    },
+    "c86": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c87",
+        "c85"
+      ]
+    },
+    "c87": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c88",
+        "c86"
+      ]
+    },
+    "c88": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c911",
+        "c87"
+      ]
+    },
+    "c911": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c912",
+        "c88",
+        "c910"
+      ]
+    },
+    "l11": {
+      "type": "lift",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-19",
+        "s6"
+      ]
+    },
+    "c-19": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-110",
+        "l11",
+        "c-18"
+      ]
+    },
+    "c912": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c913",
+        "c911"
+      ]
+    },
+    "B019": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-22"
+      ]
+    },
+    "B021": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-24"
+      ]
+    },
+    "l12": {
+      "type": "lift",
+      "floor": "Floor_0",
+      "neighbors": [
+        "s6",
+        "c-26"
+      ]
+    },
+    "s6": {
+      "type": "stair",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-110",
+        "c-27",
+        "l12",
+        "l11"
+      ]
+    },
+    "c-110": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-41",
+        "c-111",
+        "s6",
+        "c-19"
+      ]
+    },
+    "c-41": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-42",
+        "c-110"
+      ]
+    },
+    "c-42": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-43",
+        "B001",
+        "c-41"
+      ]
+    },
+    "c-43": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-42"
+      ]
+    },
+    "c913": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-21",
+        "c912"
+      ]
+    },
+    "c-21": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-22",
+        "c913"
+      ]
+    },
+    "c-22": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-23",
+        "B020",
+        "c-21",
+        "B019"
+      ]
+    },
+    "c-23": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-24",
+        "c-22"
+      ]
+    },
+    "c-24": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-25",
+        "B022",
+        "c-23",
+        "B021"
+      ]
+    },
+    "c-25": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-26",
+        "c-24"
+      ]
+    },
+    "c-26": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-27",
+        "c-25",
+        "l12"
+      ]
+    },
+    "c-27": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-111",
+        "c-26",
+        "s6"
+      ]
+    },
+    "c-111": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-112",
+        "c-27",
+        "c-110"
+      ]
+    },
+    "B001": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-42"
+      ]
+    },
+    "GT7": {
+      "type": "girls_toilet",
+      "floor": "Floor_0",
+      "neighbors": []
+    },
+    "B020": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-22"
+      ]
+    },
+    "B022": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-24"
+      ]
+    },
+    "c-112": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-113",
+        "c-111"
+      ]
+    },
+    "c-113": {
+      "type": "corridor",
+      "floor": "Floor_0",
+      "neighbors": [
+        "B-entrance",
+        "c-112"
+      ]
+    },
+    "B-entrance": {
+      "type": "room",
+      "floor": "Floor_0",
+      "neighbors": [
+        "c-113"
+      ]
+    }
+  }
+}
