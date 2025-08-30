@@ -324,13 +324,15 @@
             const gridSize = 25;
             const gridWidth = 35;
             const gridHeight = 25;
+            const headingTolerance = 25; // Degrees of tolerance for a turn
         
             let gridLayout;
             let nodes;
             let roomCoordinates = {};
             let currentPath = [];
             let playerPosition = { x: -1, y: -1, name: '' };
-            let playerHeading = 0; // The actual heading from the DeviceOrientation API
+            let playerPathIndex = 0;
+            let playerHeading = 0; // The heading from the DeviceOrientation API
         
             const typeColors = {
                 "empty": "#ffffff",
@@ -358,7 +360,7 @@
                     precomputeRoomCoordinates();
                     populateDropdowns();
                     drawGrid();
-
+        
                     if (typeof DeviceOrientationEvent.requestPermission === 'function') {
                         DeviceOrientationEvent.requestPermission()
                             .then(permissionState => {
@@ -372,9 +374,7 @@
                     } else {
                         window.addEventListener('deviceorientation', handleOrientation);
                     }
-                    
-                    navigator.geolocation.watchPosition(handlePosition, handleError, { enableHighAccuracy: true });
-
+        
                 } catch (error) {
                     console.error('Error loading map data:', error);
                     showMessage('Failed to load map data. Please ensure "stitched.json" is in the same directory.', "error");
@@ -382,24 +382,11 @@
             }
         
             function handleOrientation(event) {
+                // event.alpha is the direction relative to North (0-360)
                 playerHeading = 360 - event.alpha;
-                redrawMap(); // Redraw the map to update the arrow's orientation
+                updateNavigation();
             }
 
-            function handlePosition(position) {
-                // This is a placeholder. In a real app, you would translate lat/long to grid coordinates here.
-                // For this example, the player position is only set on pathfinding.
-                // const { latitude, longitude } = position.coords;
-            }
-        
-            function handleError(error) {
-                let message = "Geolocation error. Unable to retrieve your location.";
-                if (error.code === error.PERMISSION_DENIED) {
-                    message = "Geolocation permission denied. Please enable location services.";
-                }
-                showMessage(message, "error");
-            }
-            
             function precomputeRoomCoordinates() {
                 roomCoordinates = {};
                 for (let y = 0; y < gridHeight; y++) {
@@ -554,9 +541,9 @@
                 ctx.rotate(heading * Math.PI / 180);
         
                 ctx.beginPath();
-                ctx.moveTo(0, -arrowSize); // Arrow tip
-                ctx.lineTo(-arrowSize, arrowSize); // Bottom left
-                ctx.lineTo(arrowSize, arrowSize); // Bottom right
+                ctx.moveTo(0, -arrowSize);
+                ctx.lineTo(-arrowSize, arrowSize);
+                ctx.lineTo(arrowSize, arrowSize);
                 ctx.closePath();
                 ctx.fill();
         
@@ -630,35 +617,47 @@
                 return null;
             }
         
-            function getNextDirection(path, heading) {
-                if (!path || path.length === 0) {
-                    return "No path available.";
-                }
-                
-                const playerNodeIndex = path.indexOf(playerPosition.name);
-                if (playerNodeIndex === -1 || playerNodeIndex >= path.length - 1) {
+            function getRequiredHeading(fromNode, toNode) {
+                const fromCoord = roomCoordinates[fromNode];
+                const toCoord = roomCoordinates[toNode];
+        
+                if (!fromCoord || !toCoord) return null;
+        
+                const dx = toCoord.x - fromCoord.x;
+                const dy = toCoord.y - fromCoord.y;
+        
+                return Math.atan2(dx, -dy) * 180 / Math.PI;
+            }
+
+            function getNextDirectionInstruction(path, playerIndex, currentHeading) {
+                if (playerIndex >= path.length - 1) {
                     return "You have arrived at your destination!";
                 }
+                const nextNodeName = path[playerIndex + 1];
+                const playerNodeName = path[playerIndex];
+                
+                const neededHeading = getRequiredHeading(playerNodeName, nextNodeName);
+                if (neededHeading === null) return "Lost track of path.";
         
-                const nextNodeName = path[playerNodeIndex + 1];
-                const nextCoord = roomCoordinates[nextNodeName];
-                const playerCoord = roomCoordinates[playerPosition.name];
-        
-                const dx = nextCoord.x - playerCoord.x;
-                const dy = nextCoord.y - playerCoord.y;
-        
-                const targetAngle = Math.atan2(dx, -dy) * 180 / Math.PI;
-                const deltaAngle = (targetAngle - heading + 360) % 360;
-        
-                if (deltaAngle < 45 || deltaAngle > 315) {
+                const deltaAngle = (neededHeading - currentHeading + 360) % 360;
+                
+                // Check if the current heading is close to the needed heading
+                const isStraight = (Math.abs(deltaAngle) <= headingTolerance || Math.abs(deltaAngle - 360) <= headingTolerance);
+                const isLeftTurn = (deltaAngle > 180 && deltaAngle < 360 - headingTolerance);
+                const isRightTurn = (deltaAngle > headingTolerance && deltaAngle < 180);
+                const isTurnAround = (Math.abs(deltaAngle - 180) <= headingTolerance);
+
+                if (isStraight) {
                     return `Go straight towards ${nextNodeName}.`;
-                } else if (deltaAngle < 135) {
-                    return `Turn right towards ${nextNodeName}.`;
-                } else if (deltaAngle < 225) {
-                    return `Turn around.`;
-                } else {
+                } else if (isLeftTurn) {
                     return `Turn left towards ${nextNodeName}.`;
+                } else if (isRightTurn) {
+                    return `Turn right towards ${nextNodeName}.`;
+                } else if (isTurnAround) {
+                    return `Turn around and go towards ${nextNodeName}.`;
                 }
+        
+                return `Proceed to ${nextNodeName}.`;
             }
         
             function showMessage(message, type = 'info') {
@@ -672,20 +671,40 @@
                 if (currentPath.length > 0) {
                     const pathCoords = findPathCoordinates(currentPath);
                     drawPath(pathCoords);
-                    drawTracker(playerPosition.x, playerPosition.y, playerHeading);
+                    const playerNode = currentPath[playerPathIndex];
+                    if (roomCoordinates[playerNode]) {
+                        const nextNode = currentPath[playerPathIndex + 1];
+                        let heading = getRequiredHeading(playerNode, nextNode) || 0;
+                        drawTracker(roomCoordinates[playerNode].x, roomCoordinates[playerNode].y, heading);
+                    }
                 }
             }
         
-            function updateInstructions() {
-                const nextInstruction = getNextDirection(currentPath, playerHeading);
-                currentInstruction.textContent = nextInstruction;
+            function updateNavigation() {
+                if (currentPath.length > 0 && playerPathIndex < currentPath.length - 1) {
+                    const playerNodeName = currentPath[playerPathIndex];
+                    const nextNodeName = currentPath[playerPathIndex + 1];
+                    const neededHeading = getRequiredHeading(playerNodeName, nextNodeName);
         
-                if (nextInstruction.includes("arrived")) {
-                    showMessage("You have arrived at your destination!", "success");
-                    navigationControls.classList.add('hidden');
-                } else {
-                    showMessage('Following Path...', 'info');
+                    if (neededHeading !== null) {
+                        const delta = Math.abs(neededHeading - playerHeading);
+                        // Check if player is facing the right direction to advance
+                        if (delta < headingTolerance || delta > 360 - headingTolerance) {
+                            playerPathIndex++;
+                            // Check if destination is reached
+                            if (playerPathIndex >= currentPath.length - 1) {
+                                currentInstruction.textContent = "You have arrived at your destination!";
+                                showMessage("You have arrived!", "success");
+                                navigationControls.classList.add('hidden');
+                            } else {
+                                const nextInstruction = getNextDirectionInstruction(currentPath, playerPathIndex, playerHeading);
+                                currentInstruction.textContent = nextInstruction;
+                                showMessage(`Following path...`, "info");
+                            }
+                        }
+                    }
                 }
+                redrawMap();
             }
         
             findPathBtn.addEventListener('click', () => {
@@ -721,9 +740,11 @@
                 if (currentPath) {
                     const startCoord = roomCoordinates[startRoom];
                     playerPosition = { x: startCoord.x, y: startCoord.y, name: startRoom };
+                    playerPathIndex = 0;
                     
                     redrawMap();
-                    updateInstructions();
+                    const firstInstruction = getNextDirectionInstruction(currentPath, playerPathIndex, playerHeading);
+                    currentInstruction.textContent = firstInstruction;
                     
                     showMessage(`Path found from ${startRoom} to ${actualEndRoom}!`, "success");
                     navigationControls.classList.remove('hidden');
