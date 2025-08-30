@@ -13,8 +13,6 @@
             const gridWidth = 35;
             const gridHeight = 25;
             const headingTolerance = 25; // Degrees of tolerance for a turn
-            const moveThresholdTime = 2000; // Time in milliseconds for a steady heading
-            let lastValidHeadingTime = null;
 
             let gridLayout;
             let nodes;
@@ -318,7 +316,7 @@
                 const fromCoord = roomCoordinates[fromNode];
                 const toCoord = roomCoordinates[toNode];
 
-                if (!fromCoord || !toCoord) return 0;
+                if (!fromCoord || !toCoord) return null;
 
                 const dx = toCoord.x - fromCoord.x;
                 const dy = toCoord.y - fromCoord.y;
@@ -327,16 +325,16 @@
                 return (angle + 360) % 360;
             }
 
-            function getNextDirectionInstruction() {
-                if (playerPathIndex >= currentPath.length - 1) {
+            function getNextDirectionInstruction(path, playerIndex, currentHeading) {
+                if (playerIndex >= path.length - 1) {
                     return "You have arrived at your destination!";
                 }
 
-                const fromNodeName = currentPath[playerPathIndex];
-                const toNodeName = currentPath[playerPathIndex + 1];
+                const fromNodeName = path[playerIndex];
+                const toNodeName = path[playerIndex + 1];
                 const fromCoord = roomCoordinates[fromNodeName];
                 const toCoord = roomCoordinates[toNodeName];
-
+                
                 if (!fromCoord || !toCoord) {
                     return `Go straight towards ${toNodeName}.`;
                 }
@@ -359,7 +357,7 @@
 
             function updateInstructions() {
                 if (currentPath.length > 0) {
-                    const instruction = getNextDirectionInstruction();
+                    const instruction = getNextDirectionInstruction(currentPath, playerPathIndex, playerHeading);
                     currentInstruction.textContent = instruction;
                     if (playerPathIndex >= currentPath.length - 1) {
                          currentInstructionBox.classList.add('hidden');
@@ -379,7 +377,10 @@
                 drawGrid();
                 if (currentPath.length > 0) {
                     drawPath(findPathCoordinates(currentPath));
-                    drawTracker();
+                    const playerNode = currentPath[playerPathIndex];
+                    if (roomCoordinates[playerNode]) {
+                        drawTracker(roomCoordinates[playerNode].x, roomCoordinates[playerNode].y, playerHeading);
+                    }
                 }
             }
 
@@ -393,26 +394,16 @@
                     const isFacingCorrectly = delta < headingTolerance || delta > 360 - headingTolerance;
 
                     if (isFacingCorrectly) {
-                        if (lastValidHeadingTime === null) {
-                            lastValidHeadingTime = Date.now();
-                        }
-                        const timeElapsed = Date.now() - lastValidHeadingTime;
-                        if (timeElapsed >= moveThresholdTime) {
-                            playerPathIndex++;
-                            lastValidHeadingTime = null;
-                            
-                            if (playerPathIndex >= currentPath.length - 1) {
-                                currentInstruction.textContent = "You have arrived at your destination!";
-                                showMessage("You have arrived!", "success");
-                                currentInstructionBox.classList.add('hidden');
-                            } else {
-                                const nextInstruction = getNextDirectionInstruction();
-                                currentInstruction.textContent = nextInstruction;
-                                showMessage(`Following path...`, "info");
-                            }
-                        }
-                    } else {
-                        lastValidHeadingTime = null;
+                         playerPathIndex++;
+                         if (playerPathIndex >= currentPath.length - 1) {
+                             currentInstruction.textContent = "You have arrived at your destination!";
+                             showMessage("You have arrived!", "success");
+                             currentInstructionBox.classList.add('hidden');
+                         } else {
+                             const nextInstruction = getNextDirectionInstruction(currentPath, playerPathIndex, playerHeading);
+                             currentInstruction.textContent = nextInstruction;
+                             showMessage(`Following path...`, "info");
+                         }
                     }
                 }
                 redrawMap();
@@ -465,3 +456,4 @@
 
             init();
         });
+    
