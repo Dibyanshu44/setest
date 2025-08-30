@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,79 +12,62 @@
             color: #1f2937;
             margin: 0;
             padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
         }
-
+        
         header {
             background-color: #ffffff;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             padding: 1rem 0;
         }
-
+        
         header .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 1rem;
         }
-
+        
         h1 {
             font-size: 1.875rem;
             font-weight: 700;
             color: #1f2937;
             margin: 0;
         }
-
-        main {
-            display: flex;
-            flex-grow: 1;
-            justify-content: center;
-            align-items: center;
-            padding: 2rem 1rem;
-        }
-
-        .container {
+        
+        main .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 2rem;
-            width: 100%;
         }
         
-        .card {
-            background-color: #fff;
-            padding: 1.5rem;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            max-width: 600px;
-            display: flex;
-            flex-direction: column;
-            align-items: stretch;
-            gap: 1.5rem;
-        }
-
         .controls-container {
             display: flex;
             flex-direction: column;
             align-items: stretch;
             gap: 1rem;
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
         }
-
+        
         .controls-container > div {
             display: flex;
             flex-direction: column;
             width: 100%;
         }
-
+        
         .controls-container label {
             font-size: 0.875rem;
             font-weight: 500;
             color: #4b5563;
             margin-bottom: 0.25rem;
         }
-
+        
         .controls-container select {
             padding: 0.5rem 0.75rem;
             border: 1px solid #d1d5db;
@@ -91,7 +75,7 @@
             font-size: 1rem;
             background-color: #f9fafb;
         }
-
+        
         .controls-container button {
             padding: 0.75rem 1.5rem;
             background-color: #4f46e5;
@@ -102,20 +86,32 @@
             cursor: pointer;
             transition: background-color 0.2s ease-in-out;
         }
-
+        
         .controls-container button:hover {
             background-color: #4338ca;
         }
-
+        
+        .navigation-controls {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            align-items: center;
+            text-align: center;
+        }
+        
         #current-instruction-box {
             background-color: #dbeafe;
             color: #1e40af;
             padding: 0.75rem;
             border-radius: 8px;
             font-weight: 600;
-            text-align: center;
         }
-
+        
         #message-box {
             padding: 0.75rem;
             border-radius: 8px;
@@ -124,117 +120,198 @@
             width: 100%;
             text-align: center;
         }
-
+        
         .hidden {
             display: none !important;
         }
-
+        
         .error {
             background-color: #fecaca;
             color: #991b1b;
         }
-
+        
         .success {
             background-color: #d1fae5;
             color: #065f46;
         }
-
+        
         .info {
             background-color: #dbeafe;
             color: #1e40af;
         }
-
+        
         canvas {
+            background-color: #ffffff;
             border-radius: 12px;
-            border: 1px solid #d1d5db;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
             max-width: 100%;
             height: auto;
+            border: 1px solid #d1d5db;
         }
         
-        .direction-buttons {
+        .legend {
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+        }
+        
+        .legend h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        
+        .legend-items {
             display: flex;
-            justify-content: center;
+            flex-wrap: wrap;
             gap: 1rem;
         }
-
-        /* Responsive Styles for mobile */
-        @media (max-width: 767px) {
-            .controls-container-wrapper {
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-                gap: 1rem;
-                padding: 0 1rem;
-                align-items: center;
-            }
-
-            .card {
-                max-width: 100%;
-            }
-
-            .controls-container {
-                display: flex;
-                flex-direction: column;
-                gap: 1rem;
-                width: 100%;
-            }
-
-            #message-box, #current-instruction-box {
-                width: auto;
-                max-width: 100%;
-            }
-
-            .canvas-container {
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                overflow-x: auto;
-            }
+        
+        .legend-items > div {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
         }
-
-
-        /* Responsive Styles for PC */
+        
+        .legend-items p {
+            margin: 0;
+            font-size: 0.875rem;
+        }
+        
+        .legend-color-path, .legend-color-room, .legend-color-corridor, .legend-color-girls-toilet, .legend-color-boys-toilet, .legend-color-stairs-lift, .legend-color-entrance-exit, .legend-color-tracker {
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+        }
+        
+        .legend-color-path { background-color: #ef4444; }
+        .legend-color-room { background-color: #d1fae5; }
+        .legend-color-corridor { background-color: #fde68a; }
+        .legend-color-girls-toilet { background-color: #fecaca; }
+        .legend-color-boys-toilet { background-color: #dbeafe; }
+        .legend-color-stairs-lift { background-color: #e9d5ff; }
+        .legend-color-entrance-exit { background-color: #fca5a5; }
+        .legend-color-tracker { background-color: #2563eb; }
+        
+        footer {
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.875rem;
+            color: #6b7280;
+            background-color: #e5e7eb;
+            margin-top: auto;
+        }
+        
+        /* Responsive Styles */
         @media (min-width: 768px) {
-            main {
-                padding: 2rem;
-            }
-
-            .container {
+            main .container {
                 flex-direction: row;
-                justify-content: center;
+                justify-content: space-between;
                 align-items: flex-start;
-                gap: 3rem;
-                max-width: 100%;
-            }
-
-            .controls-container-wrapper {
-                flex-shrink: 0;
-                width: 350px;
-                display: flex;
-                flex-direction: column;
                 gap: 2rem;
             }
-
-            .controls-container {
-                flex-direction: column;
-                align-items: stretch;
+            
+            .controls-container, .navigation-controls, .legend {
+                width: 300px;
             }
-
-            .canvas-container {
-                flex-grow: 1;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                min-width: 0;
+        
+            .controls-container > div {
+                width: auto;
             }
-
-            canvas {
-                max-width: 100%;
-                height: auto;
+        
+            .controls-container button {
+                width: 100%;
+                margin-top: 1rem;
             }
         }
     </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Campus Navigator</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="controls-container">
+                <div>
+                    <label for="start-room">Current Location</label>
+                    <select id="start-room">
+                        <!-- Options will be populated by JS -->
+                    </select>
+                </div>
+                <div>
+                    <label for="end-room">Destination</label>
+                    <select id="end-room">
+                        <!-- Options will be populated by JS -->
+                    </select>
+                </div>
+                <div>
+                    <button id="find-path-btn">
+                        Find Path
+                    </button>
+                </div>
+            </div>
+            
+            <div id="message-box" class="info"></div>
+            
+            <div class="navigation-controls hidden" id="navigation-controls">
+                <div id="current-instruction-box">
+                    <p id="current-instruction">Select a path to begin navigation.</p>
+                </div>
+            </div>
+
+            <canvas id="map-canvas"></canvas>
+
+            <div class="legend">
+                <h3>Legend</h3>
+                <div class="legend-items">
+                    <div>
+                        <div class="legend-color-path"></div>
+                        <p>Path</p>
+                    </div>
+                    <div>
+                        <div class="legend-color-room"></div>
+                        <p>Room</p>
+                    </div>
+                    <div>
+                        <div class="legend-color-corridor"></div>
+                        <p>Corridor</p>
+                    </div>
+                    <div>
+                        <div class="legend-color-girls-toilet"></div>
+                        <p>Toilet (Girls)</p>
+                    </div>
+                    <div>
+                        <div class="legend-color-boys-toilet"></div>
+                        <p>Toilet (Boys)</p>
+                    </div>
+                    <div>
+                        <div class="legend-color-stairs-lift"></div>
+                        <p>Stairs/Lift</p>
+                    </div>
+                    <div>
+                        <div class="legend-color-entrance-exit"></div>
+                        <p>Entrance/Exit</p>
+                    </div>
+                    <div>
+                        <div class="legend-color-tracker"></div>
+                        <p>Your Position</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Campus Navigator. All rights reserved.</p>
+    </footer>
+
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const canvas = document.getElementById('map-canvas');
@@ -243,21 +320,21 @@
             const startRoomSelect = document.getElementById('start-room');
             const endRoomSelect = document.getElementById('end-room');
             const messageBox = document.getElementById('message-box');
-            const currentInstructionBox = document.getElementById('current-instruction-box');
+            const navigationControls = document.getElementById('navigation-controls');
             const currentInstruction = document.getElementById('current-instruction');
-            
             const gridSize = 25;
             const gridWidth = 35;
             const gridHeight = 25;
             const headingTolerance = 25; // Degrees of tolerance for a turn
-
+        
             let gridLayout;
             let nodes;
             let roomCoordinates = {};
             let currentPath = [];
+            let playerPosition = { x: -1, y: -1, name: '' };
             let playerPathIndex = 0;
-            let playerHeading = 0;
-
+            let playerHeading = 0; // The heading from the DeviceOrientation API
+        
             const typeColors = {
                 "empty": "#ffffff",
                 "corridor": "#fde68a",
@@ -269,7 +346,7 @@
                 "B-entrance": "#fca5a5",
                 "A-entrance": "#fca5a5",
             };
-
+        
             async function init() {
                 try {
                     const response = await fetch("stitched.json");
@@ -277,14 +354,14 @@
                     
                     gridLayout = jsonData.layout.Floor_0;
                     nodes = jsonData.nodes;
-
+        
                     canvas.width = gridWidth * gridSize;
                     canvas.height = gridHeight * gridSize;
                     
                     precomputeRoomCoordinates();
                     populateDropdowns();
-                    drawGrid(); // Draw initial grid
-
+                    drawGrid();
+        
                     if (typeof DeviceOrientationEvent.requestPermission === 'function') {
                         DeviceOrientationEvent.requestPermission()
                             .then(permissionState => {
@@ -298,18 +375,17 @@
                     } else {
                         window.addEventListener('deviceorientation', handleOrientation);
                     }
+        
                 } catch (error) {
                     console.error('Error loading map data:', error);
                     showMessage('Failed to load map data. Please ensure "stitched.json" is in the same directory.', "error");
                 }
             }
-
+        
             function handleOrientation(event) {
-                if (event.alpha !== null) {
-                    playerHeading = 360 - event.alpha;
-                    updateNavigation();
-                }
-                redrawMap();
+                // event.alpha is the direction relative to North (0-360)
+                playerHeading = 360 - event.alpha;
+                updateNavigation();
             }
 
             function precomputeRoomCoordinates() {
@@ -323,7 +399,7 @@
                     }
                 }
             }
-
+        
             function getCellColor(cell) {
                 if (cell.type in typeColors) {
                     return typeColors[cell.type];
@@ -334,7 +410,7 @@
                 if (cell.name in typeColors) return typeColors[cell.name];
                 return '#d1fae5';
             }
-
+        
             function findNearestAmenity(startRoom, amenityType) {
                 let shortestPath = null;
                 let nearestAmenity = null;
@@ -350,12 +426,12 @@
                 }
                 return nearestAmenity;
             }
-
+        
             function populateDropdowns() {
                 const roomList = [];
                 startRoomSelect.innerHTML = '';
                 endRoomSelect.innerHTML = '';
-
+        
                 const emptyOption = document.createElement('option');
                 emptyOption.value = '';
                 emptyOption.textContent = 'Select a location';
@@ -366,22 +442,22 @@
                 girlsToiletOption.value = 'girls_toilet';
                 girlsToiletOption.textContent = 'Nearest Girls\' Toilet';
                 endRoomSelect.appendChild(girlsToiletOption);
-
+        
                 const boysToiletOption = document.createElement('option');
                 boysToiletOption.value = 'boys_toilet';
                 boysToiletOption.textContent = 'Nearest Boys\' Toilet';
                 endRoomSelect.appendChild(boysToiletOption);
-
+        
                 const liftOption = document.createElement('option');
                 liftOption.value = 'lift';
                 liftOption.textContent = 'Nearest Lift';
                 endRoomSelect.appendChild(liftOption);
-
+        
                 const stairOption = document.createElement('option');
                 stairOption.value = 'stair';
                 stairOption.textContent = 'Nearest Staircase';
                 endRoomSelect.appendChild(stairOption);
-
+        
                 for (const roomName in nodes) {
                     const roomNode = nodes[roomName];
                     const isAmenity = roomNode.type === 'girls_toilet' || roomNode.type === 'boys_toilet' || roomNode.type === 'lift' || roomNode.type === 'stair';
@@ -396,18 +472,17 @@
                     startOption.value = room;
                     startOption.textContent = room;
                     startRoomSelect.appendChild(startOption);
-
+        
                     const endOption = document.createElement('option');
                     endOption.value = room;
                     endOption.textContent = room;
                     endRoomSelect.appendChild(endOption);
                 });
             }
-
+        
             function drawGrid() {
                 ctx.clearRect(0, 0, canvas.width, canvas.height);
-                
-                // Draw the grid normally
+        
                 for (let y = 0; y < gridHeight; y++) {
                     for (let x = 0; x < gridWidth; x++) {
                         const cell = gridLayout[y] && gridLayout[y][x] ? gridLayout[y][x] : { type: 'empty' };
@@ -418,7 +493,7 @@
                         ctx.strokeStyle = '#d1d5db';
                         ctx.lineWidth = 1;
                         ctx.strokeRect(x * gridSize, y * gridSize, gridSize, gridSize);
-
+        
                         if (cell.type === 'girls_toilet') {
                             ctx.fillStyle = '#1f2937';
                             ctx.font = '9px sans-serif';
@@ -455,33 +530,27 @@
                     }
                 }
             }
-
-            function drawTracker() {
-                if (currentPath.length > 0 && playerPathIndex < currentPath.length) {
-                    const playerNode = currentPath[playerPathIndex];
-                    const playerCoord = roomCoordinates[playerNode];
-                    
-                    if (playerCoord) {
-                        const x = playerCoord.x * gridSize + gridSize / 2;
-                        const y = playerCoord.y * gridSize + gridSize / 2;
-                        const arrowSize = 8;
-                        
-                        ctx.fillStyle = '#2563eb';
-                        ctx.save();
-                        ctx.translate(x, y);
-                        ctx.rotate(playerHeading * Math.PI / 180);
-                        
-                        ctx.beginPath();
-                        ctx.moveTo(0, -arrowSize);
-                        ctx.lineTo(-arrowSize, arrowSize);
-                        ctx.lineTo(arrowSize, arrowSize);
-                        ctx.closePath();
-                        ctx.fill();
-                        ctx.restore();
-                    }
-                }
+        
+            function drawTracker(x, y, heading) {
+                const centerX = x * gridSize + gridSize / 2;
+                const centerY = y * gridSize + gridSize / 2;
+                const arrowSize = 8;
+                
+                ctx.fillStyle = '#2563eb';
+                ctx.save();
+                ctx.translate(centerX, centerY);
+                ctx.rotate(heading * Math.PI / 180);
+        
+                ctx.beginPath();
+                ctx.moveTo(0, -arrowSize);
+                ctx.lineTo(-arrowSize, arrowSize);
+                ctx.lineTo(arrowSize, arrowSize);
+                ctx.closePath();
+                ctx.fill();
+        
+                ctx.restore();
             }
-
+        
             function findPathCoordinates(path) {
                 const coordinates = [];
                 for (const roomName of path) {
@@ -495,22 +564,22 @@
                 }
                 return coordinates;
             }
-
+        
             function drawPath(pathCoordinates) {
                 if (pathCoordinates.length < 2) return;
-                
+        
                 ctx.strokeStyle = '#ef4444';
                 ctx.lineWidth = 4;
                 ctx.lineCap = 'round';
                 ctx.beginPath();
                 
                 ctx.moveTo(pathCoordinates[0].x, pathCoordinates[0].y);
-
+        
                 for (let i = 1; i < pathCoordinates.length; i++) {
                     ctx.lineTo(pathCoordinates[i].x, pathCoordinates[i].y);
                 }
                 ctx.stroke();
-
+        
                 ctx.fillStyle = '#ef4444';
                 pathCoordinates.forEach(coord => {
                     ctx.beginPath();
@@ -518,7 +587,7 @@
                     ctx.fill();
                 });
             }
-
+        
             function bfs(start, end) {
                 const queue = [[start]];
                 const visited = new Set();
@@ -526,11 +595,11 @@
                 while (queue.length > 0) {
                     const currentPath = queue.shift();
                     const currentNode = currentPath[currentPath.length - 1];
-
+        
                     if (currentNode === end) {
                         return currentPath;
                     }
-
+        
                     if (!visited.has(currentNode)) {
                         visited.add(currentNode);
                         const neighbors = nodes[currentNode]?.neighbors || [];
@@ -548,117 +617,113 @@
                 }
                 return null;
             }
-
+        
             function getRequiredHeading(fromNode, toNode) {
                 const fromCoord = roomCoordinates[fromNode];
                 const toCoord = roomCoordinates[toNode];
-
-                if (!fromCoord || !toCoord) return 0;
-
+        
+                if (!fromCoord || !toCoord) return null;
+        
                 const dx = toCoord.x - fromCoord.x;
                 const dy = toCoord.y - fromCoord.y;
-
-                const angle = Math.atan2(dx, -dy) * 180 / Math.PI;
-                return (angle + 360) % 360;
+        
+                return Math.atan2(dx, -dy) * 180 / Math.PI;
             }
 
-            function getNextDirectionInstruction() {
-                if (playerPathIndex >= currentPath.length - 1) {
+            function getNextDirectionInstruction(path, playerIndex, currentHeading) {
+                if (playerIndex >= path.length - 1) {
                     return "You have arrived at your destination!";
                 }
-
-                const fromNodeName = currentPath[playerPathIndex];
-                const toNodeName = currentPath[playerPathIndex + 1];
-                const fromCoord = roomCoordinates[fromNodeName];
-                const toCoord = roomCoordinates[toNodeName];
+                const nextNodeName = path[playerIndex + 1];
+                const playerNodeName = path[playerIndex];
                 
-                if (!fromCoord || !toCoord) {
-                    return `Go straight towards ${toNodeName}.`;
-                }
+                const neededHeading = getRequiredHeading(playerNodeName, nextNodeName);
+                if (neededHeading === null) return "Lost track of path.";
+        
+                const deltaAngle = (neededHeading - currentHeading + 360) % 360;
                 
-                const dx = toCoord.x - fromCoord.x;
-                const dy = toCoord.y - fromCoord.y;
+                // Check if the current heading is close to the needed heading
+                const isStraight = (Math.abs(deltaAngle) <= headingTolerance || Math.abs(deltaAngle - 360) <= headingTolerance);
+                const isLeftTurn = (deltaAngle > 180 && deltaAngle < 360 - headingTolerance);
+                const isRightTurn = (deltaAngle > headingTolerance && deltaAngle < 180);
+                const isTurnAround = (Math.abs(deltaAngle - 180) <= headingTolerance);
 
-                if (dx > 0) {
-                    return `Turn right towards ${toNodeName}.`;
-                } else if (dx < 0) {
-                    return `Turn left towards ${toNodeName}.`;
-                } else if (dy < 0) {
-                    return `Go straight towards ${toNodeName}.`;
-                } else if (dy > 0) {
-                    return `Turn around and go straight towards ${toNodeName}.`;
+                if (isStraight) {
+                    return `Go straight towards ${nextNodeName}.`;
+                } else if (isLeftTurn) {
+                    return `Turn left towards ${nextNodeName}.`;
+                } else if (isRightTurn) {
+                    return `Turn right towards ${nextNodeName}.`;
+                } else if (isTurnAround) {
+                    return `Turn around and go towards ${nextNodeName}.`;
                 }
-
-                return `Go straight towards ${toNodeName}.`;
+        
+                return `Proceed to ${nextNodeName}.`;
             }
-
-            function updateInstructions() {
-                if (currentPath.length > 0) {
-                    const instruction = getNextDirectionInstruction();
-                    currentInstruction.textContent = instruction;
-                    if (playerPathIndex >= currentPath.length - 1) {
-                         currentInstructionBox.classList.add('hidden');
-                    } else {
-                        currentInstructionBox.classList.remove('hidden');
-                    }
-                }
-            }
-            
+        
             function showMessage(message, type = 'info') {
                 messageBox.textContent = message;
                 messageBox.classList.remove('hidden', 'error', 'success', 'info');
                 messageBox.classList.add(type);
             }
-
+        
             function redrawMap() {
                 drawGrid();
                 if (currentPath.length > 0) {
-                    drawPath(findPathCoordinates(currentPath));
-                    drawTracker();
+                    const pathCoords = findPathCoordinates(currentPath);
+                    drawPath(pathCoords);
+                    const playerNode = currentPath[playerPathIndex];
+                    if (roomCoordinates[playerNode]) {
+                        const nextNode = currentPath[playerPathIndex + 1];
+                        let heading = getRequiredHeading(playerNode, nextNode) || 0;
+                        drawTracker(roomCoordinates[playerNode].x, roomCoordinates[playerNode].y, heading);
+                    }
                 }
             }
-
+        
             function updateNavigation() {
                 if (currentPath.length > 0 && playerPathIndex < currentPath.length - 1) {
                     const playerNodeName = currentPath[playerPathIndex];
                     const nextNodeName = currentPath[playerPathIndex + 1];
                     const neededHeading = getRequiredHeading(playerNodeName, nextNodeName);
-                    
-                    const delta = Math.abs(neededHeading - playerHeading);
-                    const isFacingCorrectly = delta < headingTolerance || delta > 360 - headingTolerance;
-
-                    if (isFacingCorrectly) {
-                         playerPathIndex++;
-                         if (playerPathIndex >= currentPath.length - 1) {
-                             currentInstruction.textContent = "You have arrived at your destination!";
-                             showMessage("You have arrived!", "success");
-                             currentInstructionBox.classList.add('hidden');
-                         } else {
-                             const nextInstruction = getNextDirectionInstruction();
-                             currentInstruction.textContent = nextInstruction;
-                             showMessage(`Following path...`, "info");
-                         }
+        
+                    if (neededHeading !== null) {
+                        const delta = Math.abs(neededHeading - playerHeading);
+                        // Check if player is facing the right direction to advance
+                        if (delta < headingTolerance || delta > 360 - headingTolerance) {
+                            playerPathIndex++;
+                            // Check if destination is reached
+                            if (playerPathIndex >= currentPath.length - 1) {
+                                currentInstruction.textContent = "You have arrived at your destination!";
+                                showMessage("You have arrived!", "success");
+                                navigationControls.classList.add('hidden');
+                            } else {
+                                const nextInstruction = getNextDirectionInstruction(currentPath, playerPathIndex, playerHeading);
+                                currentInstruction.textContent = nextInstruction;
+                                showMessage(`Following path...`, "info");
+                            }
+                        }
                     }
                 }
                 redrawMap();
             }
-            
+        
             findPathBtn.addEventListener('click', () => {
                 const startRoom = startRoomSelect.value;
                 const endRoom = endRoomSelect.value;
-
+        
                 if (!startRoom || !endRoom) {
                     showMessage("Please select both a start and end location.", "error");
-                    currentInstructionBox.classList.add('hidden');
+                    navigationControls.classList.add('hidden');
                     return;
                 }
-
+        
                 if (startRoom === endRoom) {
                     showMessage("Start and end locations are the same. No path to show.", "info");
-                    currentInstructionBox.classList.add('hidden');
+                    navigationControls.classList.add('hidden');
                     return;
                 }
-
+        
                 let actualEndRoom = endRoom;
                 if (['girls_toilet', 'boys_toilet', 'lift', 'stair'].includes(endRoom)) {
                     const nearestAmenity = findNearestAmenity(startRoom, endRoom);
@@ -666,81 +731,33 @@
                         actualEndRoom = nearestAmenity;
                     } else {
                         showMessage(`No ${endRoom.replace('_', ' ')}s found.`, "error");
-                        currentInstructionBox.classList.add('hidden');
+                        navigationControls.classList.add('hidden');
                         return;
                     }
                 }
-
+        
                 currentPath = bfs(startRoom, actualEndRoom);
-
+        
                 if (currentPath) {
+                    const startCoord = roomCoordinates[startRoom];
+                    playerPosition = { x: startCoord.x, y: startCoord.y, name: startRoom };
                     playerPathIndex = 0;
                     
                     redrawMap();
-                    updateInstructions();
+                    const firstInstruction = getNextDirectionInstruction(currentPath, playerPathIndex, playerHeading);
+                    currentInstruction.textContent = firstInstruction;
                     
                     showMessage(`Path found from ${startRoom} to ${actualEndRoom}!`, "success");
-                    currentInstructionBox.classList.remove('hidden');
-
+                    navigationControls.classList.remove('hidden');
+        
                 } else {
                     showMessage("No path could be found between the selected locations.", "error");
-                    currentInstructionBox.classList.add('hidden');
+                    navigationControls.classList.add('hidden');
                 }
             });
-
+        
             init();
         });
     </script>
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Campus Navigator</h1>
-        </div>
-    </header>
-
-    <main>
-        <div class="container">
-            <div class="controls-container-wrapper">
-                <div class="card">
-                    <div class="controls-container">
-                        <div>
-                            <label for="start-room">Current Location</label>
-                            <select id="start-room">
-                                <!-- Options will be populated by JS -->
-                            </select>
-                        </div>
-                        <div>
-                            <label for="end-room">Destination</label>
-                            <select id="end-room">
-                                <!-- Options will be populated by JS -->
-                            </select>
-                        </div>
-                        <div>
-                            <button id="find-path-btn">
-                                Find Path
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                
-                <div id="message-box" class="info hidden"></div>
-                
-                <div id="current-instruction-box" class="card hidden">
-                    <p id="current-instruction">Select a path to begin navigation.</p>
-                </div>
-            </div>
-
-            <div class="canvas-container">
-                <canvas id="map-canvas"></canvas>
-            </div>
-        </div>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Campus Navigator. All rights reserved.</p>
-        </div>
-    </footer>
 </body>
 </html>
