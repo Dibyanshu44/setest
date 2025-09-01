@@ -1,0 +1,180 @@
+/* Base Styles */
+body {
+    font-family: 'sans-serif';
+    background-color: #f3f4f6;
+    color: #1f2937;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+    width: 100%;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+h1 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+main .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.controls-container, .navigation-controls, #current-instruction-box {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Limit width on mobile */
+    margin: 0 auto; /* Center on mobile */
+}
+
+.controls-container > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.controls-container label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #4b5563;
+    margin-bottom: 0.25rem;
+}
+
+.controls-container select {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #f9fafb;
+}
+
+.controls-container button {
+    padding: 0.75rem 1.5rem;
+    background-color: #4f46e5;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.controls-container button:hover {
+    background-color: #4338ca;
+}
+
+.navigation-controls {
+    align-items: center;
+    text-align: center;
+}
+
+#current-instruction-box {
+    background-color: #dbeafe;
+    color: #1e40af;
+    padding: 0.75rem;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+#message-box {
+    padding: 0.75rem;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.error {
+    background-color: #fecaca;
+    color: #991b1b;
+    display: block !important;
+}
+
+.success {
+    background-color: #d1fae5;
+    color: #065f46;
+    display: block !important;
+}
+
+.info {
+    background-color: #dbeafe;
+    color: #1e40af;
+    display: block !important;
+}
+
+canvas {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #d1d5db;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.875rem;
+    color: #6b7280;
+    background-color: #e5e7eb;
+    margin-top: auto;
+    width: 100%;
+}
+
+/* Responsive Styles for Desktop */
+@media (min-width: 768px) {
+    main .container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3rem;
+    }
+    
+    .controls-container, .navigation-controls {
+        width: 300px;
+        flex-shrink: 0;
+    }
+}

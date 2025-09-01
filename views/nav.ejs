@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus-25 Navigator</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Campus-25 Navigator</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div>
+                <div class="controls-container">
+                    <div>
+                        <label for="start-room">Current Location</label>
+                        <select id="start-room">
+                        </select>
+                    </div>
+                    <div>
+                        <label for="end-room">Destination</label>
+                        <select id="end-room">
+                        </select>
+                    </div>
+                    <div>
+                        <button id="find-path-btn">
+                            Find Path
+                        </button>
+                    </div>
+                </div>
+                
+                <div id="message-box" class="info"></div>
+                
+                <div id="current-instruction-box" class="navigation-controls hidden">
+                    <p id="current-instruction">Select a path to begin navigation.</p>
+                </div>
+            </div>
+
+            <canvas id="map-canvas"></canvas>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; © 2025 HallPass. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script2.js"></script>
+</body>
+</html>
